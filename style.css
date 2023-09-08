@@ -1,8 +1,46 @@
-a {
-  color: red;
+body {
+  background-color: white;
 }
 
-a:hover,
-a:active {
-  color: seagreen;
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+address {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  font-size: 50px;
+  text-align: center;
+  border: solid black;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  border: blue solid;
+  background-color: blue;
 }
